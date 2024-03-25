@@ -1,0 +1,11 @@
+Naive approach:
+    Step1 - try every single combination of sudoku numbers
+9^81 possibilites to try, so the code will run SLOW
+
+Backtracking approach:
+    Step1 - Pick an empty square (in our case the first empty square)
+    Step2 - Try all numbers in the square
+    Step3 - As soon as we find a number that works in the square, we move onto the next number
+    Step4 - Repeat, if there is no valid solution for a square, we backtrack to the previously
+            filed square and try and find another valid solution for that square.
+    Step5 - repeat 1-4 till a solution is outputted.
