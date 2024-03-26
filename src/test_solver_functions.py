@@ -3,6 +3,7 @@ from src.solver_functions import print_board
 from io import StringIO
 import sys
 
+
 def test_validate_board_pass():
     """
     Test the validate_board function, tests to see that the board shape is a 9x9
@@ -26,6 +27,7 @@ def test_validate_board_pass():
     assert len(test_board) == 9
     for row in test_board:
         assert len(row) == 9
+
 
 def test_validate_board_fail():
     """
