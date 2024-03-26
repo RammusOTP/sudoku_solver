@@ -9,3 +9,5 @@ Backtracking approach:
     Step4 - Repeat, if there is no valid solution for a square, we backtrack to the previously
             filed square and try and find another valid solution for that square.
     Step5 - repeat 1-4 till a solution is outputted.
+
+The second approach is much faster than the first approach.
